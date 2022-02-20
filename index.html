@@ -311,7 +311,7 @@
         }
 
         function detectMetaMask() {
-            if (typeof window["avalanche-2"] !== 'undefined') {                
+            if (typeof window.ethereum !== 'undefined') {                
                 return true
             } else {                
                 return false
@@ -362,7 +362,7 @@
 			const tokenABI = await $.getJSON("./assets/contract.json");
 			const accounts = await web3.eth.getAccounts();
 			  if (!accounts[0]) {
-				  await  window["avalanche-2"].request({ method: 'eth_requestAccounts' })
+				  await  window.ethereum.request({ method: 'eth_requestAccounts' })
 				} 
             const contract = await new web3.eth.Contract(
                         tokenABI,
