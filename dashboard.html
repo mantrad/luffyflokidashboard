@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)https://LuffyFloki.com/staking -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" href="https://#/logo.png" />
+		<link rel="icon" href="logo.png" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#121212" />
+        <meta name="description" content="Our advisors will bootstrap the investments in our initial phase. We invest on multiple chains and return the profits to $LFT holders." />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="$LFT, crypto, cryptocurrency, defi, decentralized finance, trading, exchange, eth , ethereum, blockchain, staking, yield farming" />
+        <link rel="canonical" href="https://#/" />
+        <link rel="apple-touch-icon" href="logo.png" />
+
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link href="./assets/main.37ff1933.chunk.css" rel="stylesheet" />
+        <title>Dashboard - LuffyFloki</title>
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@luffyfloki" />
+        <meta property="twitter:creator" content="@luffyfloki" />
+        <meta property="twitter:title" content="Our advisors will bootstrap the investments in our initial phase. We invest on multiple chains and return the profits to $LFT holders." />
+        <meta
+            property="twitter:description"
+            content="Our advisors will bootstrap the investments in our initial phase. We invest on multiple chains and return the profits to $LFT holders."
+        />
+        <meta property="twitter:image" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:image:alt" content="" />
+        <meta
+            property="og:description"
+            content="Our advisors will bootstrap the investments in our initial phase. We invest on multiple chains and return the profits to $LFT holders."
+        />
+    </head>
+    <body class="BLACK">
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+            <div class="header">
+                <div class="header--body clearfix">
+                    <a href="https://#/">
+                        <div class="header--logo"><img class="vertical-centered" src="./assets/logo.png" /><span>LuffyFloki</span></div>
+                    </a>
+                    <div class="header--links">
+                       
+                        <div class="header--links--item">
+                            <a href="/"><button class="header--link-button">Home</button></a>
+                            <div class="header--sub-links hidden"></div>
+                        </div>
+                          <div class="header--links--item">
+                            <a href="#Community"><button class="header--link-button">Community</button></a>
+                            <div class="header--sub-links hidden"></div>
+                        </div>
+                        <div class="header--links--item">
+                            <a href="" target="_blank"><button class="header--link-button" >Chart</button></a>
+                            <div class="header--sub-links hidden"></div>
+                        </div>
+                        <div class="header--links--item">
+                            <a target="_blank" href="#"><button class="header--link-button">Litepaper</button></a>
+                            <div class="header--sub-links hidden"></div>
+                        </div>		
+						<div class="header--links--item">
+                            <a target="_blank" href="https://traderjoexyz.com/trade?outputCurrency=0xd3e6A63D52CE11566CdEb1Dfe8da03df5FB59FC8#/"><button class="header--link-button">Buy Now</button></a>
+                            <div class="header--sub-links hidden"></div>
+                        </div>		
+                    </div>
+                    <div class="header--mobile-header">
+                        <button class="header--mobile-header--toggle-button" onclick="showMenu()">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                            </svg>
+                        </button>
+												<div class="header--mobile-header--menu">
+    <div id="menuMobile" class="header--mobile-header--menu--main">
+         <a href="/"><button class="header--link-button">Home</button></a>
+		<a href="#Community"><button class="header--link-button">Community</button></a>
+		 <a href="https://dexscreener.com/avalanche/0x39bef577897553f25b69b9551efdbe7ce014d317" target="_blank"><button class="header--link-button" >Chart</button></a>
+		        <a target="_blank" href="#"><button class="header--link-button">Litepaper</button></a>
+		
+    </div>
+
+<div class="header--mobile-header--wallet-provider clearfix"><div class="wallet-provider"><button id="enableMetamaskMobile" class="wallet-provider--connect-button button-style-6">Connect Wallet</button></div></div>
+</div>
+                    </div>
+                    <div class="header--wallet-provider">
+                        <div class="wallet-provider">
+                            <img id="metamask" style="display:none" class="wallet-provider--icon META_MASK"  src="./assets/metamask-color.4368e45a.svg" /><button id="enableMetamask" class="wallet-provider--connect-button button-style-6">Connect Wallet</button>
+                            <div class="wallet-provider--transactions">
+                                <div style="display:none" class="wallet-transactions">
+                                    <button class="wallet-transactions--trigger-button"><img src="./assets/transaction.0ed9d809.svg" /></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="staking-page page">
+                <div class="page--body">
+                    <div class="page--main">
+                        <div class="staking-page--title">Dashboard</div>
+                        <div class="staking-page--overview">
+                            <div class="staking-overview clearfix">
+                                <div class="staking-overview--block">
+                                    <div class="staking-overview--block--title clearfix">Your balance</div>
+                                    <div class="staking-overview--block--main clearfix">
+                                        <div class="staking-overview--block--left">
+                                            <img
+                                                src="data:image/png;base64,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"
+                                            />
+                                            <label id="balance">---</label>
+                                        </div>
+                                    </div>
+                                    <div class="staking-overview--block--footer" id="balanceToken">Balance: ---<span><span></div>
+                                </div>
+                                <div class="staking-overview--block">
+                                    <div class="staking-overview--block--title clearfix">Total rewards</div>
+                                    <div class="staking-overview--block--main clearfix">
+                                        <div class="staking-overview--block--left"><img src="./assets/avax.png" /><label  id="rewards">---</label></div>
+										<div class="staking-overview--block--right"><button class="button-style-7" id="harvest" >Connect Wallet</button></div>
+                                        
+                                    </div>
+                                    <div class="staking-overview--block--footer"><span  id="nextime">---</span>-<button class="button-style-7" onclick="shareTweet()" >Tweet</button></div>
+                                </div>
+                                <div class="staking-overview--block">
+                                    <div class="staking-overview--block--title clearfix">
+                                        Ethereum balance
+                                        <span class="info-popup--trigger">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+                                                ></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="staking-overview--block--main clearfix">
+                                        <div class="staking-overview--block--left">
+                                            <img
+                                                src="./assets/avax.png"
+                                            />
+                                            <label id="eth_balance">---</label>
+                                        </div>
+                                    </div>
+                                    <div id="usd_balance" class="staking-overview--block--footer"></div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="staking-page--tabs"><div class="staking-page--tabs--main"><button class="staking-page--tab selected">LFT Wallet </button></div></div>
+						<div class="staking-page--details clearfix">
+						<div class="staking-container">
+							<div class="staking-container--item clearfix">
+								<div class="staking-container--item--icon"><img src="./assets/avax.png" /></div>
+								<div class="staking-container--item--main" style="margin-top: 2%;">
+									<label>Buy Back Wallet</label>
+								</div>
+								<div class="staking-container--item--action"><a target="_blank" href="#"><button class="button-style-5" >View</button></a></div>
+							</div>
+							<div class="staking-container--item clearfix">
+								<div class="staking-container--item--icon"><img src="./assets/avax.png" /></div>
+								<div class="staking-container--item--main" style="margin-top: 2%;">
+									<label>Treasury Wallet</label>
+								</div>
+								<div class="staking-container--item--action"><a target="_blank" href="https://snowtrace.io/address/0x8380DAf815e7112f09c798d00f2c4E198ea14c4D"><button class="button-style-5" >View</button></a></div>
+							</div>
+							<div class="staking-container--item clearfix">
+								<div class="staking-container--item--icon"><img src="./assets/avax.png" /></div>
+								<div class="staking-container--item--main" style="margin-top: 2%;">
+									<label>Dividend Tracker</label>
+								</div>
+								<div class="staking-container--item--action"><a target="_blank" href="#"><button class="button-style-5" >View</button></a></div>
+							</div>
+						</div>
+</div>
+
+                             <div class="staking-page--external-links">
+                            <div class="staking-page--sub-title">Chart</div>
+                     <iframe src="https://dexscreener.com/avalanche/0x39bef577897553f25b69b9551efdbe7ce014d317" title="Super Brain Chart" width="100%" height="500">
+</iframe>
+                        </div>
+                        <div class="staking-page--external-links">
+                            <div class="staking-page--sub-title">More</div>
+                            <div class="staking-page--external-links--main">
+                                <div class="external-link-block">
+                                    <div class="external-link-block--main clearfix">
+                                        <div class="external-link-block--coins"><img src="./assets/token.png " /></div>
+                                        <div class="external-link-block--content"><label class="has-description">Need more $LFT?</label><span>Buy on Traderjoe</span></div>
+                                    </div>
+                                    <div class="external-link-block--action">
+                                
+                                        <a target="_blank" href="https://traderjoexyz.com/trade?outputCurrency=0xd3e6A63D52CE11566CdEb1Dfe8da03df5FB59FC8#/">
+                                            <button class="button-style-5"><img src="./assets/traderjoe.png"  style="width: 20px;margin-right: 5px;vertical-align: middle;transform: translateY(-1px);" /> Traderjoe</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="external-link-block">
+                                    <div class="external-link-block--main clearfix">
+                                        <div class="external-link-block--coins"><img src="./assets/token.png" /><img src="./assets/avax.png" /></div>
+                                        <div class="external-link-block--content"><label class="has-description">$LFT-ETH-LP</label><span>Earn by providing liquidity</span></div>
+                                    </div>
+                                    <div class="external-link-block--action">
+                                        <a target="_blank" href="https://traderjoexyz.com/trade?outputCurrency=0xd3e6A63D52CE11566CdEb1Dfe8da03df5FB59FC8#/
+">
+                                            <button class="button-style-5">Create LP on <img src="./assets/traderjoe.png" style="width: 20px;margin-right: 5px;vertical-align: middle;transform: translateY(-1px);"  /> Traderjoe</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						                <div class="social-networks clearfix" id="Community">
+                    <div class="social-networks--list clearfix">
+                        <div class="social-networks--block">
+                            <label>Get latest updates</label>
+                            <div class="social-networks--block--component">
+                                <a class="social-networks--link" target="_blank" rel="noreferrer nofollow" href="https://twitter.com/luffyfloki" target="_blank"><img src="./assets/twitter.61e81bce.svg" />Twitter</a>
+                                <a class="social-networks--link" target="_blank" rel="noreferrer nofollow" href="#" target="_blank"><img src="./assets/medium.2c4f4dab.svg" />Medium</a>
+                                <a class="social-networks--link" target="_blank" rel="noreferrer nofollow" href="#" target="_blank"><img src="./assets/github.8bce972e.svg" />Github</a>
+                            </div>
+                        </div>
+                        <div class="social-networks--block">
+                            <label>Get community support</label>
+                            <div class="social-networks--block--component">
+                                <a class="social-networks--link" target="_blank" rel="noreferrer nofollow" href="#" target="_blank"><img src="./assets/discord.98df18c3.svg" />Discord</a>
+                                <a class="social-networks--link" target="_blank" rel="noreferrer nofollow" href="https://t.me/luffyfloki" target="_blank"><img src="./assets/telegram.2314e974.svg" />Telegram</a>
+                            </div>
+                        </div>
+			
+						
+
+                    </div>
+                </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="theme hidden"><button class="theme--button WHITE"></button><button class="theme--button BLACK selected"></button></div>
+        </div>
+		
+		
+<script>
+    
+        let currentAccount = null;
+        let web3;
+        let abi;
+        let contactAddress = '0xd3e6A63D52CE11566CdEb1Dfe8da03df5FB59FC8'
+		let totalreward = null;
+        
+        function handleAccountsChanged(accounts) {
+            console.log('Calling HandleChanged')
+            
+            if (accounts.length === 0) {
+                console.log('Please connect to MetaMask.');
+				
+					$('#harvest').html("Connect Wallet");
+					$('#harvest1').html("Connect Wallet");
+					$('#metamask').css("display", "none");
+					$('#enableMetamask').removeClass("wallet-provider--account-address");
+					$('#enableMetamask').addClass("wallet-provider--connect-button button-style-6");
+                $('#enableMetamask').html('Connect Wallet')
+				$('#enableMetamaskMobile').html('Connect Wallet')
+            } else if (accounts[0] !== currentAccount) {
+			console.log(accounts[0]);
+					currentAccount = accounts[0];
+					$('.wallet-transactions').css("display", "block");
+					$('#metamask').css("display", "block");
+					$('#harvest').html("Claim");
+					$('#enableMetamask').removeClass("wallet-provider--connect-button button-style-6")
+					$('#enableMetamask').addClass("wallet-provider--account-address")
+					var first = currentAccount.slice(0, 6);
+					var second = currentAccount.slice(currentAccount.length - 4, currentAccount.length);
+					$('#enableMetamaskMobile').html(first+"..."+second)
+                    $('#enableMetamask').html(first+"..."+second)
+					$('#status').html('');
+					 getValue();
+                if(currentAccount != null) {
+				 console.log(accounts[0]);
+                    // Set the button label
+					$('.wallet-transactions').css("display", "block");
+					$('#metamask').css("display", "block");
+					var first = currentAccount.slice(0, 6);
+					var second = currentAccount.slice(currentAccount.length - 4, currentAccount.length);
+					$('#harvest').html("Claim");
+					$('#harvest1').html("Claim");
+					$('#enableMetamask').removeClass("wallet-provider--connect-button button-style-6")
+					$('#enableMetamask').addClass("wallet-provider--account-address")
+					$('#enableMetamaskMobile').html(first+"..."+second)
+                    $('#enableMetamask').html(first+"..."+second);
+					getValue();
+                }
+            }
+            console.log('WalletAddress in HandleAccountChanged ='+currentAccount)
+        }
+
+        function connect() {
+            console.log('Calling connect()')
+            ethereum
+            .request({ method: 'eth_requestAccounts' })
+            .then(handleAccountsChanged)
+            .catch((err) => {
+            if (err.code === 4001) {
+                // EIP-1193 userRejectedRequest error
+                // If this happens, the user rejected the connection request.
+                console.log('Please connect to MetaMask.');
+                $('#status').html('You refused to connect Metamask')
+            } else {
+                console.error(err);
+            }
+            });
+        }
+
+        function detectMetaMask() {
+            if (typeof window["avalanche-2"] !== 'undefined') {                
+                return true
+            } else {                
+                return false
+            }
+        }
+
+        async function getValue() {
+            console.log('GetValue')
+			const rate = await $.getJSON("https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2&vs_currencies=usd");
+			console.log(rate["avalanche-2"].usd);
+			web3.eth.getBalance(currentAccount).then(function(ethBlance){
+			
+			
+			$('#eth_balance').html((ethBlance/1e18).toFixed(2));
+			$('#eth_balance1').html((ethBlance/1e18).toFixed(2));
+			$('#usd_balance').html(((ethBlance/1e18).toFixed(2)*rate["avalanche-2"].usd).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")+" USD");
+			$('#usd_balance1').html(((ethBlance/1e18).toFixed(2)*rate["avalanche-2"].usd).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",")+" USD");
+			
+			});
+			
+			$.getJSON("./assets/contract.json", function(result) {
+            const contract = new web3.eth.Contract(
+                        result,
+                        contactAddress
+            );    
+
+			contract.methods.balanceOf(currentAccount).call({from: currentAccount}, function(error, result){
+			$('#balance').html((result/1e9).toFixed(2));
+			
+			});
+			contract.methods.getAccountDividendsInfo(currentAccount).call({from: currentAccount}, function(error, result){
+			console.log(result);
+			totalreward = (result[1]/1e18).toFixed(6);
+			$('#rewards').html((result[1]/1e18).toFixed(6));
+			$('#rewards1').html((result[1]/1e18).toFixed(6));
+			$('#totalethclaimed').html((result[2]/1e18).toFixed(6));
+			$('#balanceToken').html("Total Claimed: "+(result[2]/1e18).toFixed(6) +" ETH")
+			$('#nextime').html(((result[1]/1e18)*rate["avalanche-2"].usd).toFixed(4) +" USD");
+			});
+		});
+
+
+            
+        }
+
+        async function setValue() {
+			const web3 =  new Web3( Web3.givenProvider || "https://api.avax.network/ext/bc/C/rpc"); 
+			const tokenABI = await $.getJSON("./assets/contract.json");
+			const accounts = await web3.eth.getAccounts();
+			  if (!accounts[0]) {
+				  await  window["avalanche-2"].request({ method: 'eth_requestAccounts' })
+				} 
+            const contract = await new web3.eth.Contract(
+                        tokenABI,
+                        contactAddress
+            );    
+			console.log(accounts)
+			await contract.methods.claim().send({from: accounts[0]});
+
+
+        }
+    </script>
+    <script>   
+        $.getJSON("./assets/contract.json", function(result) {  
+                abi = result.abi                
+            });
+             
+        $( document ).ready(function() {
+            m = detectMetaMask()
+            if(m) {
+                connect()  //Make sure the connected wallet is being returned
+            } else {
+            }
+
+            $('#enableMetamask').click(function() {
+			onConnect()
+            });
+            $('#enableMetamaskMobile').click(function() {
+                onConnect()
+            });
+
+            $('#harvest').click(function() {
+                setValue()
+            });
+            
+            $('#harvest1').click(function() {
+                setValue()
+            });
+            try {           
+                web3 =  new Web3("https://api.avax.network/ext/bc/C/rpc"); 
+				console.log(web3);
+            } catch (error) {
+                alert(error)
+            }            
+            
+            //Fetch Value from Smart Contract
+            getValue();
+			setInterval(function(){ getValue()}, 5000);
+        })
+    </script>  
+	<script>
+	$(".header--mobile-header--menu").hide();
+		function showMenu(){
+		$(".header--mobile-header--menu").toggle();
+		}
+		
+		function shareTweet(){
+		var shareURL = "http://twitter.com/share?"; 
+      var params = {
+        url: "https://app.luffyfloki.com/#/dashboard", 
+        text: `My Earning So Far: ${totalreward} 
+
+1. Reflections based rewards + treasury dividends (all in eth)
+2. Optimized contract for claiming gas
+3. Percentage of tax goes straight to lp
+4. 10x with only organic marketing
+`,
+        via: "luffyfloki",
+        hashtags: "LFT,ETH,YUMMY"
+      }
+      for(var prop in params) shareURL += '&' + prop + '=' + encodeURIComponent(params[prop]);
+      window.open(shareURL, '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');}
+	</script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
+				
+    </body>
+</html>
